@@ -15,7 +15,7 @@ public class Screen extends JFrame{
 
     JPanel pan1;
     private Image background=new ImageIcon(Screen.class.getResource("img/main (4).jpg")).getImage();
-    ImageIcon img = new ImageIcon(Screen.class.getResource("img/StartBut (1).png"));
+    ImageIcon img = new ImageIcon(Screen.class.getResource("img/startbu.png"));
     JButton bt_img=new JButton(img);
     private Image logo = new ImageIcon(Screen.class.getResource("img/logo.png")).getImage();
     Screen(){
@@ -40,9 +40,10 @@ public class Screen extends JFrame{
     /*버튼설정*/
     public void btn() {
         bt_img.setLayout(null);
-        bt_img.setBounds(350,300,300,100);
+        bt_img.setBounds(370,350,270,100);
         add(bt_img);
         bt_img.setIcon(img);
+        bt_img.setBorderPainted(false);
     }
     public static void main(String[] args) {
         new Screen();
