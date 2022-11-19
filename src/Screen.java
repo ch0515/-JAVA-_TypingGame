@@ -14,9 +14,10 @@ import javax.swing.JPanel;
 public class Screen extends JFrame{
 
     JPanel pan1;
-    private Image background=new ImageIcon(Screen.class.getResource("img/main (2).jpg")).getImage();
-    ImageIcon img = new ImageIcon(Objects.requireNonNull(Screen.class.getResource("img/StartBut (1).png")));
+    private Image background=new ImageIcon(Screen.class.getResource("img/main (4).jpg")).getImage();
+    ImageIcon img = new ImageIcon(Screen.class.getResource("img/StartBut (1).png"));
     JButton bt_img=new JButton(img);
+    private Image logo = new ImageIcon(Screen.class.getResource("img/logo.png")).getImage();
     Screen(){
 
         homeframe();
@@ -33,11 +34,13 @@ public class Screen extends JFrame{
     }
     public void paint(Graphics g) {//그리는 함수
         g.drawImage(background, 0, 0, null);//background를 그려줌
+        g.drawImage(logo, 250, 60, null);
     }
+
     /*버튼설정*/
     public void btn() {
         bt_img.setLayout(null);
-        bt_img.setBounds(350,200,300,100);
+        bt_img.setBounds(350,300,300,100);
         add(bt_img);
         bt_img.setIcon(img);
     }
