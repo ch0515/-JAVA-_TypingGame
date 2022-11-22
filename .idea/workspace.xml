@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a3a48b8-c9fd-4b81-85db-23a62e9a3c4c" name="변경" comment="로고 넣기">
-      <change afterPath="$PROJECT_DIR$/src/gameScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/jungleicn.png" afterDir="false" />
+    <list default="true" id="0a3a48b8-c9fd-4b81-85db-23a62e9a3c4c" name="변경" comment="버튼 클릭시 창 변환 &amp; gui 창 아이콘 변경">
+      <change afterPath="$PROJECT_DIR$/src/img/Tarzan1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/background2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/background3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/StartBut (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/main (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/main (4).jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +54,16 @@
       <recent name="F:\JAVA_TypingGame\src\img" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.Screen">
     <configuration name="Screen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Screen" />
+      <module name="JAVA_TypingGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gameScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gameScreen" />
       <module name="JAVA_TypingGame" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,6 +72,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Screen" />
+        <item itemvalue="애플리케이션.gameScreen" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668854381328</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="버튼 클릭시 창 변환 &amp; gui 창 아이콘 변경">
+      <created>1668868647381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668868647381</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="자바 메인 창 만들기" />
     <MESSAGE value="로고 넣기" />
-    <option name="LAST_COMMIT_MESSAGE" value="로고 넣기" />
+    <MESSAGE value="버튼 클릭시 창 변환 &amp; gui 창 아이콘 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="버튼 클릭시 창 변환 &amp; gui 창 아이콘 변경" />
   </component>
 </project>
