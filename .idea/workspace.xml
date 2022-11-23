@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a3a48b8-c9fd-4b81-85db-23a62e9a3c4c" name="변경" comment="버튼 클릭시 창 변환 &amp; gui 창 아이콘 변경">
-      <change afterPath="$PROJECT_DIR$/src/img/Tarzan1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/background2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/background3.jpg" afterDir="false" />
+    <list default="true" id="0a3a48b8-c9fd-4b81-85db-23a62e9a3c4c" name="변경" comment="버튼 누르면 그냥 바로 게임 화면으로감">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/StartBut (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/main (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/main (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/background3.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668868647381</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="버튼 누르면 그냥 바로 게임 화면으로감">
+      <created>1669120732357</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669120732357</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +125,7 @@
     <MESSAGE value="자바 메인 창 만들기" />
     <MESSAGE value="로고 넣기" />
     <MESSAGE value="버튼 클릭시 창 변환 &amp; gui 창 아이콘 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="버튼 클릭시 창 변환 &amp; gui 창 아이콘 변경" />
+    <MESSAGE value="버튼 누르면 그냥 바로 게임 화면으로감" />
+    <option name="LAST_COMMIT_MESSAGE" value="버튼 누르면 그냥 바로 게임 화면으로감" />
   </component>
 </project>

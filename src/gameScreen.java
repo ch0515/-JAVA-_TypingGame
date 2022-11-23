@@ -9,6 +9,7 @@ public class gameScreen extends JFrame {
         homeframe();
         setIconImage(Toolkit.getDefaultToolkit().
                 getImage(Screen.class.getResource("img/jungleicn.png")));//이상한 외국인이 알려준 프레임 창에 아이콘 넣기
+
     }
     public void homeframe() {
         setTitle("게임화면");// 시작화면 출력

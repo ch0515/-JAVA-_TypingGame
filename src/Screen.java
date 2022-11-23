@@ -9,7 +9,6 @@ import javax.swing.*;
 import static com.sun.javafx.scene.control.skin.Utils.getResource;
 
 public class Screen extends JFrame{
-//배경음악 깔고 싶은데 어렵겠지? 울고싶다
     private Image background=new ImageIcon(Screen.class.getResource("img/background.jpg")).getImage();
     ImageIcon img = new ImageIcon(Screen.class.getResource("img/startbu.png"));
     JButton bt_img=new JButton(img);
@@ -28,7 +27,7 @@ public class Screen extends JFrame{
             }
         });//end addActionListener
         setIconImage(Toolkit.getDefaultToolkit().
-                getImage(Screen.class.getResource("img/jungleicn.png")));//이상한 외국인이 알려준 프레임 창에 아이콘 넣기
+                getImage(Screen.class.getResource("img/jungleicn.png")));//이상한 외국인이 알려준 프레임 창 아이콘 넣기
     }//end Screen
     public void homeframe() {
         setTitle("시작화면");// 시작화면 출력
