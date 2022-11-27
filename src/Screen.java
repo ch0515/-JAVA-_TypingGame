@@ -2,6 +2,7 @@
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.util.Objects;
 
 import javax.swing.*;
@@ -22,7 +23,12 @@ public class Screen extends JFrame{
         bt_img.addActionListener(new ActionListener() {//버튼 누르면 게임 창으로 ㄱ
             @Override
             public void actionPerformed(ActionEvent e) {
-                new gameScreen();
+                try {
+                    new gameScreen();
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+
                 setVisible(false); // 창 안보이게 하기
             }
         });//end addActionListener
