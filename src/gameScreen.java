@@ -23,7 +23,7 @@ public class gameScreen extends JFrame implements ActionListener, Runnable {
 
     public gameScreen() throws IOException {
         // 단어 목록 읽기
-        setTitle("산성비");
+        setTitle("게임화면");
 //        setSize(300, 200);
         setIconImage(Toolkit.getDefaultToolkit().
                 getImage(Screen.class.getResource("img/jungleicn.png")));//이상한 외국인이 알려준 프레임 창 아이콘 넣기
@@ -146,13 +146,13 @@ public class gameScreen extends JFrame implements ActionListener, Runnable {
             str = words.get((int)(Math.random() * words.size()));
         }
     }
-    public void paint(Graphics g) {//그리는 함수
-        g.drawImage(background, 0, 0, null);//background를 그려줌
-    }
+
 
 //    public static void main(String[] args) throws IOException {
 //        // TODO Auto-generated method stub
 //        new gameScreen();
 //    }
-
+//    public void paint(Graphics g) {//그리는 함수
+//        g.drawImage(background, 0, 0, null);//background를 그려줌
+//    }//추가하면 입력칸하고 단어 내려오는 것들이 안보임 <-- 왜?지
 }
