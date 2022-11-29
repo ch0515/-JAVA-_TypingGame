@@ -25,9 +25,10 @@ public class Screen extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 try {
                     new gameScreen();
-                } catch (IOException ex) {
+                } catch (InterruptedException ex) {
                     throw new RuntimeException(ex);
                 }
+
 
                 setVisible(false); // 창 안보이게 하기
             }
