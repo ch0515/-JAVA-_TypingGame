@@ -37,6 +37,7 @@ class Words extends JLabel implements Runnable{
 public class gameScreen extends JFrame implements ActionListener,KeyListener {
     final int max = 20;     //스레드, 단언, 레이블 수
     int count = 0;
+    int failure = 0;
     private Image background=new ImageIcon(Screen.class.getResource("img/background3.jpg")).getImage();
 
     JPanel Pright = new JPanel();//오른쪽 패널
@@ -128,7 +129,7 @@ public class gameScreen extends JFrame implements ActionListener,KeyListener {
                     {
                         jl1.setText("점수:" + ++count + "");
                         wr[i].name_str = "2";
-                    }//count를 증가 시키지 않는다...
+                    }
                     PCenter.remove(wr[i]);//텍스트 필드와 단어가 같으면 레이블 삭제
                     repaint();//다시 그려 줌
 
