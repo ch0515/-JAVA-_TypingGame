@@ -12,6 +12,7 @@ public class success extends JFrame{
         setLocationRelativeTo(null);	//창이 가운데에 뜨도록 설정
         setIconImage(Toolkit.getDefaultToolkit().
                 getImage(Screen.class.getResource("img/jungleicn.png")));//이상한 외국인이 알려준 프레임 창 아이콘 넣기
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
     public void paint(Graphics g) {//그리는 함수
         g.drawImage(background,0,0, null);//logo 그려줌
